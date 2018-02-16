@@ -1,0 +1,12 @@
+
+config\.py
+
+\.vscode/settings\.json
+
+__pycache__/config\.cpython-35\.pyc
+
+*.pyc
+
+*.jpg
+
+*.png
