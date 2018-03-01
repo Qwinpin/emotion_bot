@@ -35,7 +35,6 @@ class Processing:
         #resize image to default
         if width < scale_factor or height < scale_factor:
             loss = max(scale_factor // width, scale_factor // height)
-            print(loss)
             new_size = width * loss, height * loss
             img = img.resize(new_size, Image.ANTIALIAS)
             width = img.width
@@ -156,4 +155,3 @@ def support(url, chat_id):
     else:
         send_instance.send_notice(chat_id, 'Could not download file')
         config.logger.INFO('Problem with request for image')
-        
