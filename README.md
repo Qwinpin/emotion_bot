@@ -2,7 +2,7 @@
 
 Telegram bot and torch model for emotion recognition from face photo.
 
-##Features
+## Features
 
 1. Detect several faces at once
 2. 6 possible emotions: 
