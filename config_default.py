@@ -6,6 +6,7 @@ TOKEN = 'XXX:XXXX'
 MODEL_PATH = './model/trained.pt'
 HAAR_MODEL_PATH = './model/haarcascade_frontalface_default.xml'
 
+logger = logging.getLogger("log")
 handler = logging.FileHandler("log.log")
 formatter = logging.Formatter(
     '%(asctime)s - %(name)s - %(levelname)s - %(message)s - %(lineno)d'
